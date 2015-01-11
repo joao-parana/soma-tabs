@@ -1,7 +1,7 @@
 soma-tabs
 ========
 
-See the [component page](http://polymerlabs.github.io/soma-tabs) for more information.
+See the [component page](http://joao-parana.github.io/soma-tabs/components/soma-tabs) for more information.
 
 ## Getting Started
 
