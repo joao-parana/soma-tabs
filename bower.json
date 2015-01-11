@@ -14,7 +14,7 @@
   ],
   "main": "soma-tabs.html",
   "license": "MIT",
-  "homepage": "https://github.com/<USERNAME>/soma-tabs/",
+  "homepage": "https://github.com/joao-parana/soma-tabs/",
   "ignore": [
     "/.*",
     "/tests/"
