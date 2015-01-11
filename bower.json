@@ -1,0 +1,7 @@
+{
+  "name": "soma-tabs#gh-pages",
+  "private": true,
+  "dependencies": {
+    "soma-tabs": "joao-parana/soma-tabs#master"
+  }
+}
