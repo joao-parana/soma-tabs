@@ -1,0 +1,73 @@
+<link rel="import" href="../polymer/polymer.html">
+<link rel="import" href="../polymer/layout.html">
+<link rel="import" href="../core-selector/core-selector.html">
+
+<!--
+Element providing solution to Tab container.
+
+##### Example
+
+    <soma-tabs selected="0">
+      <span>One</span>
+      <span>Two</span>
+      <span>Three</span>
+    </soma-tabs>
+
+@element soma-tabs
+@blurb Element providing solution to Tab Container.
+@status release
+@homepage http://labdeq.cepel.br/wc/soma-tabs
+-->
+<polymer-element extends="core-selector" name="soma-tabs">
+
+  <template>
+
+    <link rel="stylesheet" href="soma-tabs.css">
+
+    <style>
+      :host {
+        font-family: 'Roboto', 'Arial', 'Helvetica', sans-serif;
+      }
+
+      /* To ensure your styling works under the Shadow DOM polyfill, see
+         www.polymer-project.org/docs/polymer/styling.html#directives */
+
+      polyfill-next-selector { content: '*'; }
+      ::content > * {
+        min-width: 60px;
+        height: 60px;
+        line-height: 60px;
+        text-align: center;
+        padding: 0 8px;
+        font-size: 14px;
+        color: #999;
+      }
+
+      polyfill-next-selector { content: '.core-selected'; }
+      ::content > .core-selected {
+        background: #5599FF;
+        color: white;
+      }
+    </style>
+
+    <div horizontal layout>
+      <shadow></shadow>
+    </div>
+
+  </template>
+
+  <script>
+
+    Polymer({
+
+      ready: function() {
+        // Ready is a lifecycle callback.
+        // You can do setup work in here.
+        // More info: http://www.polymer-project.org/docs/polymer/polymer.html#lifecyclemethods
+      }
+
+    });
+
+  </script>
+
+</polymer-element>
